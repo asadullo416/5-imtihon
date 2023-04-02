@@ -1,0 +1,101 @@
+.home{
+    margin-top: 40px;
+}
+
+.input-header{
+    width: 800px;
+    text-align: center;
+}
+
+.home-input{
+    border-radius: 12px;
+    height: 40px;
+    width: 600px;
+}
+
+.search-btn{
+    height: 40px;
+    width: 70px;
+    border-radius: 12px;
+    background-color: rgb(40, 40, 233);
+}
+
+.filter{
+    width: 300px;
+}
+
+.main{
+    margin-top: 30px;
+    display: flex;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    
+}
+
+.card{
+    position: relative;
+    border: 1px solid rgb(86, 78, 78);
+    border-radius: 5px;
+    width: 304px;
+    height: 420px;
+}
+
+
+
+.alive{
+
+    color: aliceblue;
+    background-color: rgb(7, 97, 7);
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.dead{
+    color: aliceblue;
+    background-color: red;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.unknown{
+    color: aliceblue;
+    background-color: goldenrod;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.more{
+    margin:10px 0px 0px 5px;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(51, 51, 235);
+    color: white;
+}
+
+.h2tag{
+    margin:5px 0px 0px 10px;
+}
+
+
+
+.ptag{
+    margin:5px 0px 0px 10px;
+}
+
+
